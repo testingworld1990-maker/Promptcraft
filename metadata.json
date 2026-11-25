@@ -1,0 +1,6 @@
+{
+  "name": "PromptCraft",
+  "description": "A clean dark-mode mobile prompt builder that guides you through simple step-by-step questions, builds live casual or structured prompts, polishes them with Gemini AI, and saves them offline.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
