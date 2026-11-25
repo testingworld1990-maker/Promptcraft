@@ -446,9 +446,19 @@ export default function App() {
           <button
             type="button"
             onClick={() => setActiveTab('builder')}
-            className="text-lg font-bold tracking-tight whitespace-nowrap shrink-0 font-display bg-gradient-to-r from-[#FF8E75] via-sky-300 to-emerald-300 bg-clip-text text-transparent focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-sky-400/70 rounded-lg"
+            className="flex items-center gap-2.5 whitespace-nowrap shrink-0 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-sky-400/70 rounded-xl py-1 pr-1"
           >
-            PromptCraft
+            <span className="w-8 h-8 rounded-xl overflow-hidden ring-1 ring-white/15 bg-[#141720] shrink-0 block">
+              <img
+                src="/assets/aistudio/Gemini_Generated_Image_vm2spovm2spovm2s_2_09114fc1.jpg"
+                alt="PromptCraft app icon"
+                referrerPolicy="no-referrer"
+                className="w-full h-full object-cover scale-[1.08]"
+              />
+            </span>
+            <span className="text-lg font-bold tracking-tight font-display bg-gradient-to-r from-[#FF8E75] via-sky-300 to-emerald-300 bg-clip-text text-transparent">
+              PromptCraft
+            </span>
           </button>
 
           <div className="flex items-center gap-1 sm:gap-2 shrink-0">

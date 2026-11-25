@@ -1,0 +1,17 @@
+{
+  "name": "PromptCraft",
+  "short_name": "PromptCraft",
+  "description": "Step-by-step dark-mode AI prompt builder with live preview, Gemini AI polish, and offline saved prompts.",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#0D0F14",
+  "theme_color": "#0D0F14",
+  "icons": [
+    {
+      "src": "/assets/aistudio/Gemini_Generated_Image_vm2spovm2spovm2s_2_09114fc1.jpg",
+      "sizes": "512x512",
+      "type": "image/jpeg",
+      "purpose": "any maskable"
+    }
+  ]
+}
